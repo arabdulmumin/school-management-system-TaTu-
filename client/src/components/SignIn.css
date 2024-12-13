@@ -1,0 +1,65 @@
+.signin-container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url('../images/backtoschool.jpg') no-repeat center center/cover; /* Replace with your image */
+  }
+  
+  .signin-form {
+    background: rgba(255, 255, 255, 0.9); /* Transparent white */
+    padding: 20px 40px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 300px;
+  }
+  
+  .signin-form h1 {
+    margin-bottom: 20px;
+    font-family: Arial, sans-serif;
+    color: #333;
+    font-size: xx-large;
+  }
+  
+  .signin-form h2 {
+    margin-bottom: 20px;
+    font-family: Arial, sans-serif;
+    color: #333;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+    text-align: left;
+  }
+  
+  .form-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #555;
+  }
+  
+  .form-group input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+  }
+  
+  .signin-button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .signin-button:hover {
+    background-color: #0056b3;
+  }
+  
